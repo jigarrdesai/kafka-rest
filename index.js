@@ -12,15 +12,15 @@ var a = argv.a || 0;
 
 
 
-function initProducerAndSendMessage(kafkaIp,kafkaPort,kafkaTopic,sendMessage,eventraiser,eventname){
+function initProducerAndSendMessage(kafkaIp,kafkaPort,zookeeperBrokerList,kafkaTopic,sendMessage,eventraiser,eventname){
    var kafkaServer = kafkaIp + ":" + kafkaPort;
-   var kafkaClientId = 'kafka-client';
+   var kafkaClientId = 'kafka-client-r3';
    var message = sendMessage;
    var messages = [{ topic: kafkaTopic, partition: 0, messages: [message], attributes: 0 }];
   // var keyedMessage = new KeyedMessage('keyed', 'a keyed message');
   console.log("initProducerAndSendMessage");
 
-   client = new Client(kafkaServer,kafkaClientId); 
+   client = new Client(kafkaServer,kafkaClientId,zookeeperBrokerList); 
    producer = new Producer(client,{ requireAcks: 1 });
 
    producer.on('ready', function () {
