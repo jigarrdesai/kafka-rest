@@ -1,0 +1,86 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "kafkaproducer",
+        "scope": null,
+        "escapedName": "kafkaproducer",
+        "name": "kafkaproducer",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/jigardesai/Desktop/ShreeGanesh/Adesh/work/rklick/processmicroservice"
+    ]
+  ],
+  "_from": "kafkaproducer@latest",
+  "_id": "kafkaproducer@1.0.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/kafkaproducer",
+  "_nodeVersion": "4.4.7",
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/kafkaproducer-1.0.1.tgz_1473280739614_0.14228997146710753"
+  },
+  "_npmUser": {
+    "name": "jigarrdesai",
+    "email": "jigar_desai12@hotmail.com"
+  },
+  "_npmVersion": "2.15.8",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "kafkaproducer",
+    "scope": null,
+    "escapedName": "kafkaproducer",
+    "name": "kafkaproducer",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/kafkaproducer/-/kafkaproducer-1.0.1.tgz",
+  "_shasum": "e08f020e3c8383c7ca81e95e5aa20229fbfcd1c7",
+  "_shrinkwrap": null,
+  "_spec": "kafkaproducer",
+  "_where": "/Users/jigardesai/Desktop/ShreeGanesh/Adesh/work/rklick/processmicroservice",
+  "author": {
+    "name": "jigar r desai"
+  },
+  "bugs": {
+    "url": "https://github.com/jigarrdesai/kafka-rest/issues"
+  },
+  "dependencies": {},
+  "description": "",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "e08f020e3c8383c7ca81e95e5aa20229fbfcd1c7",
+    "tarball": "https://registry.npmjs.org/kafkaproducer/-/kafkaproducer-1.0.1.tgz"
+  },
+  "homepage": "https://github.com/jigarrdesai/kafka-rest#readme",
+  "keywords": [
+    "kafka"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "jigarrdesai",
+      "email": "jigar_desai12@hotmail.com"
+    }
+  ],
+  "name": "kafkaproducer",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jigarrdesai/kafka-rest.git"
+  },
+  "scripts": {
+    "test": "node index.js"
+  },
+  "version": "1.0.2"
+}
